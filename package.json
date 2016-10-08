@@ -1,0 +1,33 @@
+{
+  "name": "wifi-relay-switch",
+  "version": "1.0.0",
+  "description": " ESP8266 WiFi relay switch (MQTT-Nodejs)",
+  "main": "server.js",
+  "dependencies": {
+    "mosca": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdiaz/Wifi-relay-switch.git"
+  },
+  "keywords": [
+    "esp8266",
+    "relay",
+    "wifi",
+    "domoty",
+    "mqtt",
+    "mosca",
+    "nodejs",
+    "mqttws31"
+  ],
+  "author": "cdiaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdiaz/Wifi-relay-switch/issues"
+  },
+  "homepage": "https://github.com/cdiaz/Wifi-relay-switch#readme"
+}
