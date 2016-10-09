@@ -1,7 +1,7 @@
 {
   "name": "wifi-relay-switch",
   "version": "1.0.0",
-  "description": " ESP8266 WiFi relay switch (MQTT-Nodejs)",
+  "description": "Relay switch control via Web UI using MQTT protocol over WiFi-ESP8266 module",
   "main": "server.js",
   "dependencies": {
     "mosca": "^2.2.0"
