@@ -14,7 +14,7 @@
     timeout: 3,
     onSuccess: function () {
       console.log("Se estableció conexión con el Broker MQTT");
-      MQTT.subscribe('domoy/rele', {qos: 1}); // Suscribirse al tópico domoty/rele
+      MQTT.subscribe('domoy/esp8266', {qos: 1}); // Suscribirse al tópico domoty/rele
     },
     onFailure: function (message) {
       console.log("Conexión Fallida: " + message.errorMessage);
