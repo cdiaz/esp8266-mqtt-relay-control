@@ -1,4 +1,4 @@
-  var MQTTWS_BROKER = "192.168.100.9"; // IP Broker MQTT/Websocket
+  var MQTTWS_BROKER = "159.203.119.94"; // IP Broker MQTT/Websocket
   var WS_PORT = 80; // Puerto del WebSocket
   var MQTT = new Paho.MQTT.Client(MQTTWS_BROKER, WS_PORT,"Domoty-"+ new Date().getTime()); // Instanciar Cliente MQTT
   
