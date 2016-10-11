@@ -9,20 +9,29 @@ Requirements:
 ## Run MQTT Server:
 
 ### Docker mode:
+- **Build image and run container (first time)**
 ```bash
 make run
+```
+- **Start container on interactive mode**
+```bash
+make start-i
+```
+- **Start container on detached mode (background)**
+```bash
+make start-d
 ```
 
 ## Prepare ESP8266 Module:
 
 ### Install Arduino Client for MQTT
 
-1. Download [PubSubClient](https://github.com/knolleary/pubsubclient/archive/v2.6.zip) library
-2. Load the `.zip` with **Sketch → Include Library → Add .ZIP Library**
+- Download [PubSubClient](https://github.com/knolleary/pubsubclient/archive/v2.6.zip) library
+- Load the `.zip` with **Sketch → Include Library → Add .ZIP Library**
 
-### Load Sketch
+### Upload Sketch
 
-1. Open [esp8266_mqtt.ino](https://github.com/cdiaz/Wifi-relay-switch/blob/master/esp8266_mqtt/esp8266_mqtt.ino), change BROKER_IP_SERVER at line 11 and upload
+- Open [esp8266_mqtt.ino](https://github.com/cdiaz/Wifi-relay-switch/blob/master/esp8266_mqtt/esp8266_mqtt.ino), set your BROKER_IP_SERVER at line 11 and upload
 
 ### Access to Web UI
 
