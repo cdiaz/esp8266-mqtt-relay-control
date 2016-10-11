@@ -22,6 +22,11 @@ make start-i
 make start-d
 ```
 
+- **Stop container**
+```bash
+make stop
+```
+
 ## Prepare ESP8266 Module:
 
 ### Install Arduino Client for MQTT
